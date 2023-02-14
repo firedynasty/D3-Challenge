@@ -37,7 +37,7 @@ d3.csv("assets/data/data.csv").then(function(censusData) {
   // =================================
   // Create a function to parse date and time
   // var parseTime = d3.timeParse("%d-%b");
-
+  console.log(censusData);
   // Format the data
   censusData.forEach(function(data) {
     // data.date = parseTime(data.date);
